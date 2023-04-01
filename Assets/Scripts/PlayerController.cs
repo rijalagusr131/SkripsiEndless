@@ -17,7 +17,10 @@ public class PlayerController : MonoBehaviour {
 	public GameObject trigger;
 	public Animator anim;
 
-	public float score = 0; 
+	public float score = 0;
+	public float distancescore = 0;
+	public float questionscore = 0;
+
 	public bool boost = false;
 	public Rigidbody rbody;
 	public CapsuleCollider myCollider;
@@ -27,7 +30,9 @@ public class PlayerController : MonoBehaviour {
 	public Text scoreText;
 	public Text bestScoreText;
 	public Text distancescoreText;
+	public Text questionscoreText;
 	public Text bestdistanceScoreText;
+	public Text bestquestionScoreText;
 	public float lastScore;
 	public float lastDistanceScore;
 
@@ -108,6 +113,17 @@ public class PlayerController : MonoBehaviour {
 		else
 		{
 			bestdistanceScoreText.text = " Your Distance Score : " + score.ToString();
+		}
+
+		questionscoreText.text = score.ToString();
+
+		if (score > lastDistanceScore)
+		{
+			bestScoreText.text = "Best Score : " + score.ToString();
+		}
+		else
+		{
+			bestquestionScoreText.text = " question Score : " + score.ToString();
 		}
 
 		if (death == true) {

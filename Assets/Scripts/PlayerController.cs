@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour {
 
+	int currentScore = 44;
+
 	private Touch initialTouch = new Touch ();
 	private float distance = 0;
 	private bool hasSwiped = false;
@@ -34,21 +36,22 @@ public class PlayerController : MonoBehaviour {
 	public Text bestdistanceScoreText;
 	public Text bestquestionScoreText;
 	public float lastScore;
-	public float lastDistanceScore;
 
+	public GameObject distanceScore;
 
 	// Use this for initialization
-	void Start () {
+	private void Start () {
 		//PlayerPrefs.DeleteAll();
 		anim = GetComponent<Animator> ();
 		rbody = GetComponent<Rigidbody> ();
 		myCollider = GetComponent<CapsuleCollider> ();
 
 		lastScore = PlayerPrefs.GetFloat ("MyScore");
+		//currentScore = PlayerPrefs.GetInt("CurrentDistance",0);
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () {
+	private void FixedUpdate () {
 		foreach (Touch t in Input.touches) 
 		{
 			if (t.phase == TouchPhase.Began) 
@@ -95,36 +98,6 @@ public class PlayerController : MonoBehaviour {
 			}
 		}
 			
-
-		scoreText.text = score.ToString ();
-
-		if (score > lastScore) {
-			bestScoreText.text ="Best Score : "+ score.ToString ();
-		} else {
-			bestScoreText.text ="Your Score : "+ score.ToString ();
-		}
-
-		distancescoreText.text = score.ToString();
-
-		if (score > lastDistanceScore)
-		{
-			bestScoreText.text = "Best Score : " + score.ToString();
-		}
-		else
-		{
-			bestdistanceScoreText.text = " Your Distance Score : " + score.ToString();
-		}
-
-		questionscoreText.text = score.ToString();
-
-		if (score > lastDistanceScore)
-		{
-			bestScoreText.text = "Best Score : " + score.ToString();
-		}
-		else
-		{
-			bestquestionScoreText.text = " question Score : " + score.ToString();
-		}
 
 		if (death == true) {
 			gameOverImg.gameObject.SetActive (true);
@@ -173,10 +146,48 @@ public class PlayerController : MonoBehaviour {
 
 		trigger = GameObject.FindGameObjectWithTag ("Obstacle");
 
+		currentScore += (int)transform.position.z;
+		SetFinalScore();
 
 	}
 
-	void OnTriggerEnter(Collider other){
+	private void SetFinalScore()
+    {
+		bestdistanceScoreText.text = " Your Distance Score : " + currentScore.ToString();
+		scoreText.text = score.ToString();
+		if (score > lastScore)
+        {
+			bestScoreText.text = "Best Score : " + score.ToString();
+        }
+		else
+        {
+			bestScoreText.text = "Your Score :" + score.ToString();
+		}
+
+		distancescoreText.text = currentScore.ToString();
+
+		if (score > currentScore)
+		{
+			bestScoreText.text = "Best Score : " + score.ToString();
+		}
+		else
+		{
+			bestdistanceScoreText.text = " Your Distance Score : " + currentScore.ToString();
+		}
+
+		questionscoreText.text = score.ToString();
+
+		if (score > currentScore)
+		{
+			bestScoreText.text = "Best Score : " + score.ToString();
+		}
+		else
+		{
+			bestquestionScoreText.text = " question Score : " + score.ToString();
+		}
+	}
+
+	private void OnTriggerEnter(Collider other){
 		if (other.gameObject.tag == "PlayerTrigger") {
 			Destroy (trigger.gameObject);
 		}
@@ -196,6 +207,7 @@ public class PlayerController : MonoBehaviour {
 			if (score > lastScore) {
 				PlayerPrefs.SetFloat ("MyScore", score);
 			}
+			distancescoreText.text = "5";
 		}
 	}
 

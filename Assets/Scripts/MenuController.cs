@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class MenuController : MonoBehaviour {
 
 	public Image SettingImage;
+	public Image HowToPlayImg;
 	public Image BestScoreImage;
 	public Image CreditImage;
 	public Image VolumeImage;
@@ -34,6 +35,10 @@ public class MenuController : MonoBehaviour {
 		SettingImage.gameObject.SetActive (true);
 	}
 
+	public void HowToPlay(){
+		HowToPlayImg.gameObject.SetActive(true);
+	
+	}
 	public void Exit(){
 		SettingImage.gameObject.SetActive (false);
 	}
@@ -57,7 +62,11 @@ public class MenuController : MonoBehaviour {
 	public void ExitCredit(){
 		CreditImage.gameObject.SetActive (false);
 	}
-
+	
+	public void ExitHowToPlay()
+	{
+		HowToPlayImg.gameObject.SetActive(false);
+	}
 	public void ExitVolume(){
 		VolumeImage.gameObject.SetActive (false);
 	}

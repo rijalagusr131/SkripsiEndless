@@ -207,7 +207,7 @@ public class PlayerController : MonoBehaviour {
 			if (score > lastScore) {
 				PlayerPrefs.SetFloat ("MyScore", score);
 			}
-			distancescoreText.text = "5";
+			distancescoreText.text = "0";
 		}
 	}
 

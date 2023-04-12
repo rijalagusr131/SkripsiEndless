@@ -1,0 +1,208 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.GameTips.EndlessRunner"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.3" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00020000" />
+19-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-67
+21-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:22-64
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:5-79
+22-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:22-76
+23
+24    <uses-feature
+24-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-19:36
+25        android:name="android.hardware.touchscreen"
+25-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-52
+26        android:required="false" />
+26-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:9-33
+27    <uses-feature
+27-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-22:36
+28        android:name="android.hardware.touchscreen.multitouch"
+28-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-63
+29        android:required="false" />
+29-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-33
+30    <uses-feature
+30-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-25:36
+31        android:name="android.hardware.touchscreen.multitouch.distinct"
+31-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-72
+32        android:required="false" />
+32-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-33
+33
+34    <uses-permission android:name="com.android.vending.BILLING" />
+34-->[:billing-3.0.3:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:10:5-67
+34-->[:billing-3.0.3:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:10:22-64
+35
+36    <application
+36-->D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-121
+37        android:banner="@drawable/app_banner"
+37-->D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:81-118
+38        android:extractNativeLibs="true"
+38-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-41
+39        android:icon="@mipmap/app_icon"
+39-->D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+40        android:isGame="true"
+40-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-30
+41        android:label="@string/app_name" >
+41-->D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+42        <activity
+42-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-51:20
+43            android:name="com.unity3d.player.UnityPlayerActivity"
+43-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-66
+44            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+44-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-194
+45            android:hardwareAccelerated="false"
+45-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-48
+46            android:launchMode="singleTask"
+46-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-44
+47            android:resizeableActivity="false"
+47-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-47
+48            android:screenOrientation="portrait"
+48-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-49
+49            android:theme="@style/UnityThemeSelector" >
+49-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-54
+50            <intent-filter>
+50-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-43:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:17-69
+51-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:17-77
+53-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:27-74
+54                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+54-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:17-86
+54-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:27-83
+55            </intent-filter>
+56
+57            <meta-data
+57-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-47:40
+58                android:name="unityplayer.UnityActivity"
+58-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-57
+59                android:value="true" />
+59-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-37
+60            <meta-data
+60-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-50:40
+61                android:name="android.notch_support"
+61-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-53
+62                android:value="true" />
+62-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:17-37
+63        </activity>
+64
+65        <meta-data
+65-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-55:33
+66            android:name="unity.splash-mode"
+66-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-45
+67            android:value="0" />
+67-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-30
+68        <meta-data
+68-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:9-58:36
+69            android:name="unity.splash-enable"
+69-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-47
+70            android:value="True" />
+70-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-33
+71        <meta-data
+71-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:9-61:36
+72            android:name="unity.launch-fullscreen"
+72-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-51
+73            android:value="True" />
+73-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-33
+74        <meta-data
+74-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:37
+75            android:name="unity.allow-resizable-window"
+75-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-56
+76            android:value="False" />
+76-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-34
+77        <meta-data
+77-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:9-67:50
+78            android:name="notch.config"
+78-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-40
+79            android:value="portrait|landscape" />
+79-->[:unityLibrary] D:\PDF Tugas\SKRIPSI\Game\EndlessRunner\EndlessRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-47
+80
+81        <activity
+81-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:13:9-17:74
+82            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+82-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:14:13-74
+83            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+83-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:15:13-170
+84            android:hardwareAccelerated="true"
+84-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:16:13-47
+85            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+85-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:17:13-71
+86        <activity
+86-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:18:9-22:86
+87            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+87-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:19:13-85
+88            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+88-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:20:13-170
+89            android:hardwareAccelerated="true"
+89-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:21:13-47
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+90-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:22:13-83
+91        <activity
+91-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:23:9-27:86
+92            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+92-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:24:13-93
+93            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+93-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:25:13-170
+94            android:hardwareAccelerated="false"
+94-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:26:13-48
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+95-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:27:13-83
+96        <activity
+96-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:28:9-32:74
+97            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+97-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:29:13-82
+98            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+98-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:30:13-170
+99            android:hardwareAccelerated="false"
+99-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:31:13-48
+100            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+100-->[:UnityAds:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:32:13-71
+101
+102        <meta-data
+102-->[:billing-3.0.3:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:13:9-15:37
+103            android:name="com.google.android.play.billingclient.version"
+103-->[:billing-3.0.3:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:14:13-73
+104            android:value="3.0.3" />
+104-->[:billing-3.0.3:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:15:13-34
+105
+106        <activity
+106-->[:billing-3.0.3:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:17:9-21:75
+107            android:name="com.android.billingclient.api.ProxyBillingActivity"
+107-->[:billing-3.0.3:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:18:13-78
+108            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+108-->[:billing-3.0.3:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:19:13-96
+109            android:exported="false"
+109-->[:billing-3.0.3:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:20:13-37
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[:billing-3.0.3:] C:\Users\ACER\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:21:13-72
+111    </application>
+112
+113</manifest>
